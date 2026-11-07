@@ -1,0 +1,5 @@
+#!/bin/sh
+echo "pre-commit: lint + unit tests"
+cd backend || exit 1
+npm run lint || { echo "Lint failed, commit aborted"; exit 1; }
+npm run test:unit || { echo "Unit tests failed, commit aborted"; exit 1; }
