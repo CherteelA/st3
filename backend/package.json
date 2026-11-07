@@ -6,7 +6,7 @@
     "start": "node index.js",
     "test": "jest",
     "test:unit": "jest test/unit --coverage --forceExit",
-    "test:integration": "jest tests/integration --runInBand --forceExit",
+    "test:integration": "jest test/integration --runInBand --forceExit",
     "lint": "eslint ."
   },
   "keywords": [],
