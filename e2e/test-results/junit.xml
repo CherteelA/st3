@@ -1,0 +1,40 @@
+<testsuites id="" name="" tests="6" failures="0" skipped="0" errors="0" time="1.8807260000000001">
+<testsuite name="shop.spec.js" timestamp="2026-11-07T11:13:48.481Z" hostname="" tests="6" failures="0" skipped="0" time="0.17" errors="0">
+<testcase name="shop API flow › 1. регистрация" classname="shop.spec.js" time="0.074">
+<properties>
+<property name="serial" value="">
+</property>
+</properties>
+</testcase>
+<testcase name="shop API flow › 2. вход" classname="shop.spec.js" time="0.02">
+<properties>
+<property name="serial" value="">
+</property>
+</properties>
+</testcase>
+<testcase name="shop API flow › 3. список товаров" classname="shop.spec.js" time="0.018">
+<properties>
+<property name="serial" value="">
+</property>
+</properties>
+</testcase>
+<testcase name="shop API flow › 4. добавление в корзину" classname="shop.spec.js" time="0.022">
+<properties>
+<property name="serial" value="">
+</property>
+</properties>
+</testcase>
+<testcase name="shop API flow › 5. оформление заказа" classname="shop.spec.js" time="0.026">
+<properties>
+<property name="serial" value="">
+</property>
+</properties>
+</testcase>
+<testcase name="shop API flow › 6. выход: без токена доступ закрыт" classname="shop.spec.js" time="0.01">
+<properties>
+<property name="serial" value="">
+</property>
+</properties>
+</testcase>
+</testsuite>
+</testsuites>
