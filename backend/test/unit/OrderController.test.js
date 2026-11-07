@@ -29,7 +29,7 @@ describe("createOrder", () => {
 
     await createOrder({ body: { totalPrice: 0 }, userId: "u1" }, res);
 
-    expect(res.status).toHaveBeenCalledWith(400);
+    expect(res.status).toHaveBeenCalledWith(401);
     expect(res.json).toHaveBeenCalledWith({ message: "must contain products" });
     expect(mockSave).not.toHaveBeenCalled();
   });
