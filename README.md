@@ -1,3 +1,5 @@
+[![CI](https://github.com/CherteelA/st3/actions/workflows/ci.yml/badge.svg)](https://github.com/CherteelA/st3/actions/workflows/ci.yml)
+
 # E-Commerce Platform
 
 ## Overview
